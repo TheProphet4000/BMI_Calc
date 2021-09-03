@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e02c0b49-9eed-4924-853d-995cda700d0d" name="Changes" comment="" />
+    <list default="true" id="e02c0b49-9eed-4924-853d-995cda700d0d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/BMI_Calc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BMI_Calc.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EchoServer/src/com/company/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/EchoServer/src/com/company/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EchoServer/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/EchoServer/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EchoServer/src/com/company/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/EchoServer/src/com/company/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EchoServer/src/server/Activate.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,13 +28,39 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/EchoServer/out" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/javafx-sdk-11.0.2/lib" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.27726674" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Prophet\Documents\GitHub\BMI_Calc" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.com.company.Main" />
+      <module name="BMI_Calc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -35,6 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1630485107684</updated>
       <workItem from="1630485109513" duration="319000" />
+      <workItem from="1630679315469" duration="1558000" />
     </task>
     <servers />
   </component>

@@ -1,10 +1,4 @@
-/**
- * Developed by András Ács (acsandras@gmail.com)
- * Zealand / www.zealand.dk
- * Licensed under the MIT License
- * 30/08/2021
- */
-package com.company;
+package src.com.company;
 
 import java.io.*;
 import java.net.ServerSocket;
@@ -34,7 +28,7 @@ public class Server {
                     Timestamp time = new Timestamp(System.currentTimeMillis()); //gemmer tiden fra denne enhed.
                     String incomingText = inputStream.readUTF(); // Jeg læser en string på port 8080
                     System.out.println("Tekst modtaget: " + incomingText);
-                    outputStream.writeUTF("ServerResponse: " + "Current date: " + time + ": Following text is recived : " + incomingText);
+                    outputStream.writeUTF("ServerResponse: " + "Date: " + time + ": Recived following" + incomingText);
                     outputStream.flush();
                 }
 
