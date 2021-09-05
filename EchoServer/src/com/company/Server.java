@@ -8,6 +8,7 @@ import java.sql.Timestamp;
 public class Server {
 
     public static void Activate(){
+        System.out.println("Server is active now");
 
         new Thread( () -> {
             try {

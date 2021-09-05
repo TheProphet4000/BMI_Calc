@@ -8,6 +8,12 @@ import java.util.Scanner;
 
 public class Client {
     public static void Activate(){
+        System.out.println("Client is active now");
+        Input();
+    }
+
+
+    private static void Input() {
         try {
 
             //-------------------- SOCKET--------------------
@@ -21,13 +27,15 @@ public class Client {
 
             //Handles user data and calcs
             Scanner height = new Scanner(System.in);
+            float h = height.nextFloat();
             System.out.println("Please type in your Height (in M) :");
 
             Scanner weight = new Scanner(System.in);
+            float w = weight.nextFloat();
             System.out.println("Thank you, and now your Weight (in Kg) ");
 
             //BMI = vægt(kg) / højde(m)2
-            float bmi = weight / (height * height);
+            float bmi = w / (h * h);
 
             //Sends everything
             while(true) {
